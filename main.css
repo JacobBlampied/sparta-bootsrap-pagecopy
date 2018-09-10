@@ -105,7 +105,8 @@
 
 .col-md-7 {
   margin-top: -65px;
-  background-color: rgb(97, 96, 97)
+  background-color: rgb(97, 96, 97);
+  opacity: 0.8;
 }
 
 .cont1-text {
@@ -127,7 +128,7 @@
   border: 3px solid black;
 }
 
-.left-carousel-control {
+/* .left-carousel-control {
   border: 2px solid black;
   width: 100px;
   height: 100px;
@@ -140,7 +141,14 @@
   width: 100px;
   height: 100px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 10px; */
+
+  .carousel-control.right {
+  transform: translate(100px,8px);
+}
+
+.carousel-control.left {
+  transform: translate(-100px,8px);
 }
 
 .navbar-brand {
